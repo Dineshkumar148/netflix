@@ -1,0 +1,259 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(/images/netflix-background.jpg);
+    font-family: Helvetica, sans-serif;
+}
+
+.netflix-logo {
+    padding-left: 150px;
+    padding-top: 10px;
+}
+
+.netflix-login-form {
+    display: flex;
+    justify-content: center;
+}
+
+.netflix-form-content {
+    background-color: #000;
+    opacity: 75%;
+    width: 30%;
+    padding: 80px 80px 80px 80px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.netflix-h1 {
+    color: #ffff;
+    padding-bottom: 30px;
+}
+
+.netflix-form-input>input {
+    background-color: transparent;
+    color: #ffff;
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #8c8c8c;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.netflix-form-input ::placeholder {
+    padding-left: 20px;
+
+}
+
+.netflix-button>button {
+    background-color: red;
+    color: #ffff;
+    font-size: 18px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #8c8c8c;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.netflix-link a {
+    color: #ffff;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.netflix-checkbox-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.netflix-checkbox {
+    height: 20px;
+    width: 20px;
+}
+
+.netflix-checkbox-container input[type='checkbox'] {
+   accent-color: #fff;
+}
+
+.netflix-checkbox-container>span {
+    color: #ffff;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.netflix-signup {
+    margin-bottom: 20px;
+}
+
+.netflix-signup>span {
+    color: #8c8c8c;
+    font-size: 16px;
+}
+
+.netflix-signup>a {
+    color: #ffff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.netflix-learnmore {
+    margin-bottom: 30px;
+}
+
+.netflix-learnmore span {
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
+.netflix-learnmore a {
+    color: blue;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* style for footer */
+.netflix-footer-container {
+    margin-top: 50px;
+    background-color: #000;
+    opacity: 75%;
+    color: #8c8c8c;
+    font-size: 16px;
+    padding: 100px 100px 100px 200px;
+}
+
+.netflix-footer-call-link {
+    margin-bottom: 30px;
+}
+
+.netflix-footer-call-link>a {
+    color: #ffff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.netflix-footer-link {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.netflix-footer-link>a {
+    height: 40px;
+    width: 200px;
+    color: #8c8c8c;
+    font-size: 16px;
+}
+
+.netflix-language-select > select{
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+    padding: 0px 10px 0px 10px;
+    height: 35px;
+    width: 150px;
+}
+.netflix-language-select  option{
+    color: #000000;
+}
+/* Style for tablet */
+@media (max-width: 768px) {
+
+    .netflix-logo {
+        padding-left: 30px;
+        padding-top: 20px;
+        width: 120px;
+        height: 40px;
+    }
+
+    .netflix-form-content {
+        width: 40%;
+        padding: 60px;
+        margin-top: 10px;
+    }
+
+    .netflix-learnmore span {
+        font-size: 14px;
+    }
+
+    .netflix-learnmore a {
+        font-size: 14px;
+    }
+
+    /* style for tablet footer */
+    .netflix-footer-container {
+        font-size: 16px;
+        padding: 50px 200px 50px 50px;
+    }
+
+    .netflix-footer-link>a {
+        height: 40px;
+        width: 250px;
+        font-size: 14px;
+    }
+}
+
+/* Style for mobile */
+
+@media (max-width: 480px) {
+    body {
+        background-image: none;
+        background-color: #000;
+    }
+
+    .netflix-logo {
+        padding-left: 10px;
+        padding-top: 20px;
+        width: 120px;
+        height: 40px;
+    }
+    .netflix-form-content {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .netflix-link a {
+        font-size: 16px;
+    }
+
+    .netflix-checkbox-container>span {
+        font-size: 16px;
+    }
+
+    .netflix-signup>span {
+        font-size: 14px;
+    }
+
+    .netflix-signup>a {
+        font-size: 16px;
+    }
+
+    .netflix-learnmore span {
+        font-size: 14px;
+    }
+
+    .netflix-learnmore a {
+        font-size: 14px;
+    }
+
+    /* style for mobile footer */
+    .netflix-footer-container {
+        font-size: 16px;
+        padding: 0px 30px 0px 30px;
+    }
+
+    .netflix-footer-call-link>a {
+        font-size: 16px;
+    }
+
+    .netflix-footer-link>a {
+        height: 40px;
+        width: 140px;
+        font-size: 14px;
+    }
+}
